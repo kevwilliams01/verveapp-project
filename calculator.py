@@ -1,6 +1,5 @@
-from bokeh.plotting import figure, show, output_file
+from bokeh.plotting import figure, show
 
-output_file('vbar.html')
 
 p = figure(plot_width=400, plot_height=400)
 p.vbar(x=[1, 2, 3], width=0.5, bottom=0,
